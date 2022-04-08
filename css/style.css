@@ -12,11 +12,14 @@
 .text-white {
     color: white;
 }
-.bg-white {
-    background-color: #fff;
+.text-black {
+    color: black;
 }
 .text-bg-color {
     color: var(--bg-color);
+}
+.bg-white {
+    background-color: #fff;
 }
 /* fine Colors  */
 /* bordi */
@@ -28,10 +31,13 @@
 }
 /* fine bordi  */
 /* titoli  */
-h1 {
+h1 , h2 {
     text-transform: uppercase;
     padding: 2rem;
     text-align: center;
+}
+h3 {
+    text-transform: uppercase;
 }
 /* fine titoli  */
 /* flex  */
@@ -56,6 +62,9 @@ h1 {
     width: 100%;
     max-width: 1400px;
     margin: 0 auto;
+}
+.p-2 {
+    padding: 1.5rem;
 }
 /* fine Containers */
 /* FINE UTILITY  */
@@ -95,4 +104,27 @@ button {
 }
 button:hover {
     border-color: orange;
+}
+/* fine forum  */
+/* biglietto  */
+.result {
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 180px;
+    display: flex;
+    
+}
+.result div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 19%;
+
+
+}
+.result div:first-child {
+    background-color: gray;
+    width: 24%;
+    justify-content: start;
 }
