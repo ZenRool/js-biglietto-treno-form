@@ -80,4 +80,19 @@ input, select {
     border: 1px solid #b91450;
     border-radius: 5px;
     background: white;
+    text-align: center;
+    font-size: 1.1rem;
+}
+button {
+    margin: 30px;
+    height: 40px;
+    width: 150px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: var(--bg-color);
+    font-weight: 800;
+}
+button:hover {
+    border-color: orange;
 }
