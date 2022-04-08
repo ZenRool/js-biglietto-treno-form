@@ -1,3 +1,54 @@
-body {
-    color: red;
+:root {
+    --bg-color: #b91450;
 }
+/* RESET  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* UTILITY  */
+/* Colors  */
+.text-white {
+    color: white;
+}
+/* fine Colors  */
+/* titoli  */
+h1 {
+    text-transform: uppercase;
+    padding: 2rem;
+    text-align: center;
+}
+/* fine titoli  */
+/* flex  */
+.d-flex {
+    display: flex;
+}
+.d-none {
+    display: none;
+}
+.flex-col {
+    flex-direction: column;
+}
+.justify-center {
+    justify-content: center;
+}
+.align-center {
+    align-items: center;
+}
+/* fine flex  */
+/* Containers  */
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* fine Containers */
+/* FINE UTILITY  */
+/* BODY */
+body {
+    font-family: sans-serif;
+    background-color: var(--bg-color);
+}
+
+
