@@ -128,3 +128,6 @@ button:hover {
     width: 24%;
     justify-content: start;
 }
+.result div:first-child p {
+    font-weight: 600;
+}
