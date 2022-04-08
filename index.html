@@ -14,7 +14,7 @@
         <h1>
             Calcola il prezzo del tuo biglietto
         </h1>
-        <form  action="javascript:handleClick()"  class="container d-flex flex-col align-center bg-white text-bg-color border-round box-shadow">
+        <div class="container d-flex flex-col align-center bg-white text-bg-color border-round box-shadow">
 
             <div class="d-flex justify-center">
                 <div class="form-card">
@@ -49,22 +49,22 @@
             </div>
 
             <div>
-                <button type="submit">
-                    Generare
+                <button id="generate-btn">
+                    Genera
                 </button>
-                <button>
+                <button id="back-btn">
                     Annulla
                 </button>
             </div>
-        </form>
-        <div class="d-none container d-flex flex-col align-center">
+        </div>
+        <div class="d-none d-flex container flex-col align-center" id="ticket">
             <h2>
                 Il tuo biglietto
             </h2>
             <div class="container d-flex flex-col bg-white text-black p-2">
                 
                 <h3>
-                    dettaglio passeggiero
+                    dettaglio passeggieroa
                 </h3>
                 
                 <div class="result">
