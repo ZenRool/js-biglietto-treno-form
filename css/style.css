@@ -12,7 +12,21 @@
 .text-white {
     color: white;
 }
+.bg-white {
+    background-color: #fff;
+}
+.text-bg-color {
+    color: var(--bg-color);
+}
 /* fine Colors  */
+/* bordi */
+.border-round {
+    border-radius: 20px;
+}
+.box-shadow {
+    box-shadow: 4px 4px rgba( 0 , 0 , 0 , 0.1);
+}
+/* fine bordi  */
 /* titoli  */
 h1 {
     text-transform: uppercase;
@@ -50,5 +64,20 @@ body {
     font-family: sans-serif;
     background-color: var(--bg-color);
 }
-
-
+/* forum  */
+.form-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2rem;
+}
+label {
+    margin: 1.5rem 0;
+}
+input, select {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #b91450;
+    border-radius: 5px;
+    background: white;
+}
